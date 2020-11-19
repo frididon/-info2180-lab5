@@ -15,7 +15,7 @@ echo "<table>";
         echo "<th>Country Name</th>";
         echo "<th>Continent</th>";
         echo "<th>Indepence Year </th>";
-        echo "< Head of State</th>";
+        echo "<Head of State</th>";
         echo "<tr><td>" . $row['name'] . "</td><td>" . $row['continent'] . "</td><td>" . $row['independence_year'] . "</td><td>" . $row['head_of_state'] . "</td></tr>";
       echo "</table>";
 ?>
